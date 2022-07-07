@@ -15,5 +15,6 @@ int main()
     // Перевіряемо правдива чи хибна умова
     for (int i = min; i <= max; i++)
         if (chkAms(i)) printAms(i);
+    // Повертаємо результат
     return 0;
 }
